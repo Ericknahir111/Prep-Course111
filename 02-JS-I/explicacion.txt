@@ -1,0 +1,90 @@
+una variable es algo en lo cual se define como una forma de 
+almacenamiento que se configura y se reestablese,tambien no necesitamos declarar su tipo para iniciarla.
+las variables se inician por algo que es muy importante en programacion que son las palabras claves
+, sino tambien a las variables se las declaran con un valor que se le asigna con  el signo igual.
+tambien existen otras formas de declarar variables como "let" que actua de forma un poco diferente.
+ahora hablaremos de "const" que es una abreviacion de constante y esta declaracion de variable no se puede cambiar.
+
+
+tambien esta console.log que es una palabra clave que nos permitira imprimir los datos en la consola
+
+STRIGNS.
+los tipos de datos son en pocas palabras, lo que define sus clases, 
+lo que impone las restrigciones de los mismos, dando a entender que valor
+ se les asigna y que operaciones se realiza con ellos.
+los tipos de datos que mas se ven en javascript son "strigns", "numbers" y los "boleanos".
+
+strigns: son bloques de texto, todo dato strign lleva comillas.
+numbers: los numeros no son mas que eso numeros y no llevan comillas.  
+booleanos: se basan en activar y desactivar, 0 o 1, veradero o falso.
+operadores: son signos que ya conocemos con el que se realizan las operaciones de las matematicas.
+
+Vamos a explicar los operadores
+estos mismo tienen una precedencia que se aplica segun, la mayor precedencia del dato que se escriba,
+ahora si tenemos la misma precedencia del dato, entra en juego la asociatividad que se define como el 
+orden de los operadores segun el valor que conlleven, osea si va de derecha a izquierda o de izquierda a derecha. 
+
+OBJETOS Y METODOS.
+Los objetos y metodos son como el console.log, console seria el objeto y log el metodo.
+estos estan en javascript y son objetos integrados.
+
+MATH.
+ahora basandonos en los antes visto nos adentramos en "math".
+POW: este metodo se usa para elevar un numero al exponente que nosotros le indiquemos 
+math.pow (2,2) = 4;
+`Math` también tiene métodos que redondearán los números para nosotros. `.
+round` redondeará un número al número entero más cercano. `.
+floor` siempre redondeará un número al número entero más cercano hacia abajo. `
+.ceil` siempre se redondeará al número entero más cercano hacia arriba.
+
+```javascript
+Math.round(6.5) = 7;
+Math.round(6.45) = 6;
+Math.floor(6.999) = 6;
+Math.ceil(6.0001) = 7;
+```
+LENGTH:
+este metodo es usa para devolver la cantidad de caracteres puestos en la variable indicada
+
+FUNCIONES: las funcines son parte importante de la programacion, sobre todo en javascript
+, se definen como unos tipos objetos particulares, se llaman objetos invocables(callable objets)
+en estos cuando tenemos las o la variable con la funcion podemos cambiarlas, calcularlas y hacer
+ algo con ellas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+OBJETOS.
+Los objetos son similares a las matrizes en muchas cosas y en otras muy distinto 
+, estos son contenedores de datos pero de una sola cosa.
+
+En estos objetos se pueden encontrar llaves con el mismo valor, estas llaves pueden
+tener como valor cualquier dato de javascript como los numeros, scripts, booleanos, cadena o matriz.
+Estos se pueden invocar con puntos u corchetes 
+
+Una vez que tengamos los pares clave-valor, podemos acceder a esos valores llamando al nombre del objeto y la clave. Hay dos formas diferentes de hacer esto, usando puntos o usando corchetes.
+
+Con la notación de puntos podemos llamar al nombre del objeto, un punto y el nombre de la clave. Así como llamamos a la propiedad `.length` en una matriz. La propiedad de longitud es un par de clave-valor.
+
+```javascript
+user.lovesJavascript; // true
+user.username;        // juan.perez
+```
+
+La notación de corchetes es como llamar a un elemento en una matriz, aunque con corchetes debemos usar una cadena o número, o una variable que apunte a una cadena o número. Se puede llamar a cada clave envolviéndola con comillas:
+
+```javascript
+const passString = 'password';
+user['lovesJavascript']; // true
+user['username'];        // juan.perez
+user[passString];        // loremipsumpwd123
+```
+
+Generalmente, verás que los corchetes casi siempre se usan con variables.
+En estos tambien se puede agregar su valor con puntos u corchetes.
+Las propiedades se pueden eliminar con la palabra clave "delete".
+
+BUCLES "FOR IN LOOP"
+Estos bucles son para los objetos ya que estos no tienen valor numerico entoces 
+se utiliza este bucle que es una sintaxis del "comun" en vez de una valor numerico 
+habra que introducir una variable y desde ahi Esto recorrerá cada clave del objeto y finalizará cuando se hayan
+iterado todas las claves. Podemos usar esta clave, y la notación de corchetes, en nuestro bucle for para acceder 
+al valor asociado con esa clave.
+
+"THIS"
+Esta palabra clave se usa para poder acceder a claves dentro del objetos, tambien utiles en metodos.
+
+Cuando estemos dentro de una funcion el valor de "this" dependera de como sea invocada la funcion.
+
+"THIS global"
+this cuando se ejecuta fuera de una funcion adopta el contexto global.
+
+Cuando usamos el _keyword_ `this` dentro de una función que es un método de un objeto,
+ `this` toma hace referencia al objeto sobre el cual se llamó el método:
+
+``` javascript
+> var o = {
+    prop: 37,
+    f: function() {
+      return this.prop;
+    }
+  };
+
+> console.log(o.f());
+< 37
+// this hace referencia a o ´}
+
+De esta forma, `that` (puede tener cualquier nombre) va a apuntar al objeto `obj` (`this` apuntaba a ese objeto cuando hicimos la asignación). Ahora si, podemos 
+usar `that` en vez de `this` y estar seguros qué es lo que va a tener adentro.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

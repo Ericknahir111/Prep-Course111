@@ -1,0 +1,112 @@
+UNDEFINDED Y NULL.
+undefined; significa que la variable que estas buscando no existe, significa literalmente que lo que estas buscando no existe.
+null;se podria decir que null se identifica como un objeto que nos informa algo que si existe, cuando un desarrolador envia a
+otro un "null" le quiere decir que ese "null" si existe y fue configurado por ese derallorador.
+
+SIGNOS IGUALES: tendremos al triple igual este nos va a comparar todo sobre los dos datos, incluyendo el tipo, tambien existe el
+doble igual que este nos indica que nos compara todo sobre los dos datos menos el tipo.
+IF/ELSE/ELSE IF.      
+La declaracion if se usa para verificar si una expresion es true, para encadenar las mismas se usa "elseif", por ultimo siempre 
+aparecera "else" al final de una cadena de else if.
+
+&&.
+Este operador logico se utilizara para comparar y verificar ambas expresiones de forma en la cual, si las dos son verdaderas,
+devolvera true, si alguna de las exoresiones es false, devolvera false.
+
+NOT!
+este operador hace que se devuelva lo contrario a lo que se indique.
+
+operador ""||""este nos indica que si una de las expresiones es true devolvera true y si el false devolver false y viceversa.
+
+BUCLES "for"
+este bucle tiene una sintaxis unica similar a la del if, lo podemos invocar con for loop aca en visual code.
+este mismo tiene un cierre de parentesis y dentro las llaves formadas por punto y coma.
+luego la estructura basica del bucle for es esta:
+ Declaramos una variable | Expresión condcicional | Incrementamos la variable .
+
+El "++"
+es el cual se establece, para establecer el valor de la variable a su valor actual mas uno. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

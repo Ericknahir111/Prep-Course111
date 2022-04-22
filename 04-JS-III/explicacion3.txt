@@ -1,0 +1,73 @@
+ARRAY. 
+Los array son contenedores de almacenamiento para colecciones de datos.
+en estos se encuentran los indices y numeracion de sus elementos estos se ordenan de la siguiente forma
+El orden numérico de una matriz SIEMPRE comienza en 0, por lo que el primer elemento está en el índice 0, el segundo en el índice 1, el tercero en el 2,
+ y así sucesivamente (esto puede ser complicado al principio, pero solo recuerda que las matrices siempre comienzan en 0).
+
+Podemos acceder facilmente al ultimo elemento de la matriz con el modulo ".length".
+
+Podemos asignar y reasignar cualquier índice en la matriz usando el paréntesis/índice y un "=".
+
+PUSH & POP.
+Estos elementos se usan para añadir y eliminar elementos dentro de la matriz.
+
+`.push` agrega un elemento al final de la matriz, incrementando su longitud en 1. `.push` devuelve la nueva longitud.
+
+```javascript
+const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
+
+nombresEstudiantes.push('Patricia');
+
+console.log(nombresEstudiantes);  // ['Martin', 'Antonio', 'Sara', 'Samuel', 'Patricia']
+```
+
+`.pop` elimina el último elemento de la matriz, disminuyendo la longitud en 1. `.pop` devuelve el elemento "reventado" (_popped_).
+
+"UNSHIFT" "SHIFT"
+.unshift` y `.shift` son exactamente como `.push` y `.pop`, excepto que operan en el primer elemento de la matriz. `
+.unshift(item)` colocará un nuevo elemento en la primera posición de la matriz, y `
+.shift()` eliminará el primer elemento de la matriz.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
