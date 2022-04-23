@@ -1,0 +1,51 @@
+#CLASES.
+las clases son algo que nos brinda javascript y comparte muchas de las funcionalidades de los objetos, estas class
+son creadas como creadores de varios objetos que comparten las mismas propiedades y metodos.
+
+tambien en estas se encuentra la palabra clave "new" que hace que los datos creados en la clase se instancie automatica
+mente en el objeto o variable que allamos agregado a la invocacion pseudo clsica de la misma 
+
+THIS: en lo que esto para estar segurpo a lo que refiere el "this" hay que fijarse a la izquierda del punto para saber 
+a que objeto se refiere el mismo. 
+
+PROTOTYPE:
+prototype y Las clases tienen una forma única de establecer un método una vez y dar acceso a cada objeto de esa
+clase a esos métodos. Esto se llama el `prototype`. Cada clase tiene una propiedad _prototype_, que luego podemos
+establecer en métodos
+
+
+CREATED:este se usa para crear un objeto dentro de un prototype especificado.
+
+
+ASSING: este se usa para asignar propiedades dentro del objeto pasado por parametros.
+
+
+HERENCIA: nos referim0os cuando una clase puede heredar metodos y propiedades de otros constructores, recordemos
+que tanto como las clases, la herencia y el polimorfismo, son constructores con objetos dentro.
+
+POLIMORFISMO:
+este nos indica que objetos distintos puedan responder a un mismo llamado igual de acuerdo a su propia naturaleza.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
